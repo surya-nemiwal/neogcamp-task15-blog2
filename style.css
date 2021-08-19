@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    font-family: Raleway, sans-serif;
+    margin: 0 0;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+
+:root {
+    /* --primary-color: #BDD624; */
+    --primary-color: #058C60;
+    --off-white: #E5E7EB;
+    --dark-grey: #4B5563;
+
+}
+
+.grey {
+    color: var(--dark-grey);
+}
+
+.primary-color {
+    color: var(--primary-color)
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+
+}
+
+
+.heading{
+    padding: 4rem 0rem 2rem 0rem;
+    text-align: center;
+    
+}
+
+
+
+.li-inline {
+    display: inline;
+    
+}
+
+.link {
+    text-decoration: none;
+    
+    padding: 0rem .5rem;
+}
+
+
+
+.center-text {
+    text-align: center;
+    padding: 0rem 2rem;
+}
+
+.white-container{
+    margin: .5rem 0rem;
+    padding: .1rem 1rem;
+}
+
+
+.off-white-container{
+    background-color: var(--off-white);
+    padding: .1rem 1rem;
+    margin: .5rem 0rem;
+}
+
+
+
+.footer {
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    color: white;
+    padding: 3rem;
+}
+
+.footer p {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.footer a {
+    color: lightpink;
+    padding: .5rem 1.5rem;
+}
+
+
+.code-snippet{
+    background-color: lightgray;
+    border-left: 1rem solid var(--dark-grey);
+    margin: 2rem;
+    padding: none;
+    margin: 0;
+}
+

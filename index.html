@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <h1 class="grey heading">
+        A simple way to center html tags.
+    </h1>
+    <div class="container-center ">
+        <h2>
+            <i> Introduction</i>
+        </h2>
+        <div class="white-container">
+            Have you ever used <strong>display : 'float'</strong> property to center the child elements of a div. Then
+            you know how cumbersome
+            it is to write many lines of code just to center some html tag! </p>
+            <p>What if now I tell you that you can do same task of centering a element with just one line of code. Don't
+                believe me? read below and find out yourself!</p>
+        </div>
+        <div class="off-white-container">
+            <p>We'll be using flexbox to center the content of a div. So before we look at the actual code lets first
+                understand what flexbox is?</p>
+            <p>flexbox is a poweful css property to manage scaling and all the extra space within a html tag.</p>
+        </div>
+        <div class="white-container">
+            <p>We'll be using flexbox to center the content of a div. So before we look at the actual code lets first
+                understand what flexbox is?</p>
+            <p>flexbox is a poweful css property to manage scaling and all the extra space within a html tag.</p>
+        </div>
+        <p style="margin: 0rem;"><strong>The syntax to use flexbox is</strong></p>
+
+        <pre class="code-snippet">
+        <code>
+        &ltdiv style="display: flex;"&gt
+            {child components}
+        &lt/div&gt
+        </code>
+        </pre>
+        <p style="margin:.5rem 0rem"><i>code-explatanation: To make a div flex-container i.e flexbox simply change the
+                display property from block to flex. Isn't that
+                simple </i> </p>
+
+        <h3>Properties of flexbox</h3>
+
+        <p style="margin:0">There are many properties associated with flexbox like flex-grow, flex-wrap,
+            justify-content,
+            align-items.</p>
+        <p>But we will be using only two properties to center the child tags</p>
+        <div class="white-container">
+            <ul>
+                <li>
+                    <p> <strong>justify-content</strong> : This property is used to align the content in main-axis. By
+                        default the value
+                        of justify-content is flex-start, and we have to change this value to "center" so as to center
+                        the child tags along the row i.e in horizontal direction</p>
+                </li>
+                <li>
+                    <p><strong>align-items</strong> : This property is used to align the content in cross-axis. By
+                        default the value of
+                        align-items is stretch, and we have to change this value to "center" so as to center the child
+                        tags along the column i.e in vertical direction</p>
+                </li>
+            </ul>
+        </div>
+
+
+        <p>Now that we have basic understanding of how to declare and use flexbox lets write the code to center the
+            child of a div tag</p>
+        <pre class="code-snippet">
+                <code >
+            &ltdiv style="display: flex; justify-content: 'center'; 
+                align-items:'center' "&gt
+                    {child component here ...}
+            &lt/div&gt
+                </code>
+            </pre>
+        <p>Tan-Tadan! thats it. Thats all you need to center the child tag i.e. to wrap the child tag within a div, whose
+            display property is set to  <strong>display: 'flex';</strong> and <br> <strong>justify-content:
+                'center';align-items:'center'; </strong>.</p>
+    </div>
+    <footer class="footer">
+        <div class="container-center  center-text ">
+            <p>You can connect with me on social media</p>
+            <ul style="padding:0">
+                <li class="li-inline"><a href="https://www.linkedin.com/in/surya-nemiwal/" class="link">linkedIn</a>
+                </li>
+                <li class="li-inline"><a href="https://github.com/teckshaft" class="link">Github</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
